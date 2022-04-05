@@ -1,0 +1,11 @@
+.carousel{
+    background-color: #0E8FAB;
+    height: 400px;
+}
+.carousel-item p,.carousel-item h3{
+color: white;
+}
+body{
+    background-color:red;
+    z-index: 0;
+}

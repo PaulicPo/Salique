@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="">
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
@@ -8,23 +8,76 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
 </head>
 <body>
+<div class="container-md">
 <header>
-    <nav class="navbar navbar-default">
+    <nav class="navbar navbar-expand-md">
         <div class="container">
             <div class="navbar-header">
-                <a class="navbar-brand" href="index.html">Salique.</a>
+                <a class="navbar-brand " href="index.html">Salique.</a>
             </div>
-            <div class="collapse navbar-collapse">
-                <ul class="nav navbar-nav navbar-right">
-                    <li class="active nav-item"><a href="#"><span>TEMPLATES</span></a></li>
-                    <li class="nav-item"><a href="#">ELEMENTS</a></li>
-                    <li class="nav-item"><a href="#">PORTFOLIO</a></li>
-                    <li class="nav-item"><a href="#">CONTACT</a></li>
+            <div class="navbar-collapse">
+                <ul class="navbar-nav ms-auto">
+                    <li class="active nav-item"><a class="nav-link" href="#"><span>TEMPLATES</span></a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">ELEMENTS</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">PORTFOLIO</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">CONTACT</a></li>
                 </ul>
             </div>
         </div>
     </nav>
 </header>
 
+<section>
+    <div class="carousel slide d-flex justify-content-center  align-items-center" data-bs-ride="carousel" id="carousel1">
+        <div class="carousel-indicators">
+            <button class="active" data-bs-target="#carousel1" data-bs-slide-to="0"></button>
+            <button data-bs-target="#carousel1" data-bs-slide-to="1"></button>
+            <button data-bs-target="#carousel1" data-bs-slide-to="2"></button>
+        </div>
+        <div class="carousel-inner w-50">
+               <div class="carousel-item active overflow-auto">
+                   <h3 >
+                       Elegant Design
+                   </h3>
+                   <p >
+                       With the right, great looking responsive website template,
+                       you will be able to attract visitors and increase your sales.
+                       This is an elegant theme designed for multi-purpose use.
+                   </p>
+                   <button class="btn btn-dark" type="button">
+                       Multi-Purpose
+                   </button>
+               </div>
+                <div class="carousel-item overflow-auto">
+                    <h3>
+                        Responsive
+                    </h3>
+                    <p>
+                        We produce comprehensive mapping of consumers' relationships with communications across bought,
+                        owned & earned media based on bespoke insight.
+                    </p>
+                    <button class="btn btn-dark" type="button">
+                        MEDIA DEVICES
+                    </button>
+                </div>
+                <div class="carousel-item overflow-auto">
+                    <h3>
+                        Easy to modify
+                    </h3>
+                    <p>
+                        We design, create and manage fully integrated social media platforms,
+                        online PR strategy and campaigns for our clients, ability to analyse,
+                        monitor and optimise brand presence.
+                    </p>
+                    <button class="btn btn-dark" type="button"  >
+                        fully supported
+                    </button>
+                </div>
+        </div>
+        <button class="carousel-control-prev" data-bs-slide="prev" data-bs-target="#carousel1"><span class="carousel-control-prev-icon"></span></button>
+        <button class="carousel-control-next" data-bs-slide="next" data-bs-target="#carousel1"><span class="carousel-control-next-icon"></span></button>
+    </div>
+</section>
+</div>
 </body>
 </html>
