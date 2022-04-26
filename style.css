@@ -6,6 +6,61 @@
 color: white;
 }
 body{
-    background-color:red;
-    z-index: 0;
+    background:url("images/background.png") repeat fixed!important;
+}
+.container-md{
+    background-color:#f8f8f8;
+    padding: 0 !important;
+}
+header .nav-link, header a {
+    color: #111;
+}
+header .nav-link:hover,header a:hover {
+    color: #111;
+}
+.blackrow{
+    background: #2c2c2c;
+    color: #999;
+}
+.large-icon{
+    font-size: 45px;
+    color: #f8f8f8 ;
+    float: left;
+    margin-right: 15px;
+}
+.box-first{
+    border-right: 1px solid #111111;
+}
+.box-middle{
+    border-right: 1px solid #111111;
+    border-left: 1px solid #555555;
+}
+.box-last{
+    border-left: 1px solid #555555;
+}
+p,section{
+    margin: 0!important;
+}
+h{
+    color: #f8f8f8 ;
+}
+.white-box{
+    background-color: #fff;
+    border: solid 1px #e9e9e9;
+}
+.white-box h3{
+    background-color: #0E8FAB;
+    color: #fff;
+    text-align: center;
+}
+.white-box h5{
+    text-align: center;
+}
+.white-box div{
+    padding: 15px;
+}
+.link-wrapper{
+    background-color:#0E8FAB ;
+    padding: 5px 10px;
+    float: right;
 }
