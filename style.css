@@ -77,8 +77,8 @@ h{
     background-color: #fff;
     padding: 15px 0px 15px 0px;
     border-left: 4px solid #0E8FAB;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 55px;
+    margin-bottom: 55px;
 
 }
 .dobat{
@@ -99,7 +99,7 @@ h{
 }
 footer{
     background: #2c2c2c;
-    color:#fff;
+    color:#fff;!important;
 }
 .subfoot div h6{
     border-bottom: 2px solid #0E8FAB;
@@ -114,4 +114,22 @@ footer{
     background-color:#111111;
     color:#666666;
     margin: 0 !important;
+}
+.footerlogo{
+    background:url("images/logo-footer.png") 12px 50% no-repeat ;
+
+}
+.links a{
+    border-radius: 50%;
+    background-color:#666666;
+    color:#fff;
+    width:50px;
+    height: 50px;
+    align-items: center;!important;
+    justify-content: center;!important;
+    display: flex;
+
+}
+.links a i{
+
 }
