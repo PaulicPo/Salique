@@ -30,28 +30,55 @@
     </header>
 
     <section>
-        <div class="contact">
+        <div class="d-flex justify-content-between contact ">
             <h5>Contact</h5>
+            <h6><i class="fa-solid fa-location-dot"></i>Call Us Now 1-318-107-432 </h6>
         </div>
     </section>
     <div class="mapbox container">
         <div class="row">
-            <div class="col-md-12">
+            <div class="col-md-12 p-3">
                 <iframe class="map" src="http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=disney+paris&amp;aq=&amp;sll=37.0625,-95.677068&amp;sspn=39.371738,86.572266&amp;ie=UTF8&amp;hq=disney&amp;hnear=Paris,+%C3%8Ele-de-France,+France&amp;t=m&amp;fll=48.881877,2.535095&amp;fspn=0.512051,1.352692&amp;st=103241701817924407489&amp;rq=1&amp;ev=zo&amp;split=1&amp;ll=49.027964,2.772675&amp;spn=0.315159,0.585022&amp;z=10&amp;iwloc=D&amp;output=embed">
                 </iframe>
             </div>
         </div>
         <div class="row">
-            <div class="col-md-8">
-                <form class="border">
-                    <div class="linetime">
-                        <label for="first_name">Name</label>
-                        <input id="first_name" type="text" name="first_name" placeholder="" required>
+            <div class="col-md-8 p-3">
+                <h6 class="sepa"><span><i class="fa-solid fa-envelope"></i>GET IN TOUCH</span></h6>
+                <form>
+                    <div class="row">
+                        <div class=" col-md-6">
+                            <label>Name</label>
+                            <input class="form-control"  type="text"  placeholder="" required>
+                        </div>
+                        <div class=" col-md-6">
+                            <label>E-mail address</label>
+                            <input class="form-control" id="email" type="text" name="first_name" placeholder="" required>
+                        </div>
                     </div>
+                        <div class="">
+                            <label>Message</label>
+                            <textarea class="form-control" name="message" cols="110" rows="5"></textarea>
+                        </div>
+                    <input  class="button" type="submit" value="SUBMIT">
                 </form>
             </div>
-            <div class="col-md-4">
-
+            <div class="location col-md-4 p-3">
+                <h6 class="sepa"><span><i class=" fa-solid fa-location-dot"></i>LOCATIONS</span></h6>
+                <ul>
+                    <li><h6>The Company Name Inc.</h6></li>
+                    <li><h6>2536 Zamora Road, Missisipi, 74C</h6></li>
+                    <li><h6>Telephone:+1 348 271 9483</h6></li>
+                    <li><h6> FAX:+1 243 794 5734</h6></li>
+                    <li><h6>E-mail: mail@yourweb.com</h6></li>
+                </ul>
+                <ul>
+                    <li><h6>9863 - 9867 Mill Road, Cambridge, MG09 99HT</h6></li>
+                    <li><h6> Zamora Road, Mississippi, 74C</h6></li>
+                    <li><h6>Telephone:+1 348 271 9483</h6></li>
+                    <li><h6>FAX:+1 243 794 5734</h6></li>
+                    <li><h6>E-mail: mail@yourweb.com</h6></li>
+                </ul>
             </div>
         </div>
     </div>
@@ -88,8 +115,13 @@
                     Font Awesome  Single Project  Home
                 </p>
             </div>
+
         </div>
     </footer>
+        <div class="copyright row ">
+        <h6 class="text-start col-md-6 p-2">Your Name &copy; 2015. All rights reserved</h6>
+        <h6 class="text-end col-md-6 p-2">Premium Template by Wow ThemesNet</h6>
+        </div>
 </div>
 </body>
 </html>

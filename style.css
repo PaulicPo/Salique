@@ -1,94 +1,123 @@
-.carousel{
+.carousel {
     background-color: #0E8FAB;
     height: 400px;
 }
-.carousel-item p,.carousel-item h3{
-color: white;
+
+.carousel-item p, .carousel-item h3 {
+    color: white;
 }
-body{
-    background:url("images/background.png") repeat fixed!important;
+
+body {
+    background: url("images/background.png") repeat fixed !important;
 }
-.container-md{
-    background-color:#f8f8f8;
+
+.container-md {
+    background-color: #f8f8f8;
     padding: 0 !important;
 }
-.container{
+
+.container {
+    padding: 0px 30px !important;
+}
+
+.navbar {
     padding: 0!important;
 }
-.navbar{
-    padding: 0px 10px!important;
+
+.nav-link {
+    padding-top: 30px !important;
+    padding-bottom: 30px !important;
 }
-.nav-link{
-    padding-top:30px !important;
-    padding-bottom:30px !important;
-}
+
 header .nav-link, header a {
     color: #111;
 }
-header .nav-link:hover,header a:hover {
-    color:#ffffff ;
-    background-color:#555555;
+
+header .nav-link:hover, header a:hover {
+    color: #ffffff;
+    background-color: #555555;
 }
+
 .current {
     background-color: #555555;
     font-size: 17px;
     color: #ffffff;
 }
-.current i,.current a{
+
+.content {
+    padding: 0px 30px !important;
+}
+
+.current i, .current a {
     color: #f8f8f8;
 }
-.blackrow{
+
+.blackrow {
     background: #2c2c2c;
     color: #999;
+    padding: 0px 30px !important;
 }
-.large-icon{
+
+.large-icon {
     font-size: 45px;
-    color: #f8f8f8 ;
+    color: #f8f8f8;
     float: left;
     margin-right: 15px;
 }
-.box-first{
+
+.box-first {
     border-right: 1px solid #111111;
 }
-.box-middle{
+
+.box-middle {
     border-right: 1px solid #111111;
     border-left: 1px solid #555555;
 }
-.box-last{
+
+.box-last {
     border-left: 1px solid #555555;
 }
-p,section{
-    margin: 0!important;
+
+p, section {
+    margin: 0 !important;
 }
-h{
-    color: #f8f8f8 ;
+
+h {
+    color: #f8f8f8;
 }
-.white-box{
+
+.white-box {
     background-color: #fff;
     border: solid 1px #e9e9e9;
 }
-.white-box h3{
+
+.white-box h3 {
     background-color: #0E8FAB;
     color: #fff;
     text-align: center;
 }
-.white-box h5{
+
+.white-box h5 {
     text-align: center;
 }
-.white-box div{
+
+.white-box div {
     padding: 15px;
 }
-.link-wrapper{
+
+.link-wrapper {
     text-align: right;
-    margin-bottom:-15px !important;
-    margin-right:-15px !important;
+    margin-bottom: -15px !important;
+    margin-right: -15px !important;
 }
-.link{
-    background-color:#0E8FAB ;
+
+.link {
+    background-color: #0E8FAB;
     padding: 10px 10px;
     color: #fff;
 }
-.actionbox{
+
+.actionbox {
     border: solid 1px #e9e9e9;
     background-color: #fff;
     padding: 15px 0px 15px 0px;
@@ -97,82 +126,113 @@ h{
     margin-bottom: 55px;
 
 }
-.dobat{
-    background-color:#0E8FAB ;
-    margin-top:-120px;
-    margin-right:-1000px!important;
+
+.dobat {
+    background-color: #0E8FAB;
+    margin-top: -120px;
+    margin-right: -1000px !important;
 }
+
 .downbat {
     float: right;
 }
-.actionbox p{
-    text-align: left!important;
-    margin-right: 300px!important;
+
+.actionbox p {
+    text-align: left !important;
+    margin-right: 300px !important;
 
 }
-.actionbox div{
+
+.actionbox div {
     padding: 15px;
 }
-footer{
+
+footer {
     background: #2c2c2c;
-    color:#fff;
-    padding: 0px 10px;
+    color: #fff;
+    padding: 0px 30px !important;
 }
-.subfoot div h6{
+
+.subfoot div h6 {
     border-bottom: 2px solid #0E8FAB;
 }
-.subfoot div p{
+
+.subfoot div p {
     color: #999;
 }
-.subfoot .fa-link{
- padding:0px 10px 10px 0px!important;
+
+.subfoot .fa-link {
+    padding: 0px 10px 10px 0px !important;
 }
-.copyright{
-    background-color:#111111;
-    color:#666666;
+
+.copyright {
+    background-color: #111111;
+    color: #666666;
     margin: 0 !important;
+    padding: 0px 30px !important;
 }
-.footerlogo{
-    background:url("images/logo-footer.png") 12px 50% no-repeat ;
+
+.footerlogo {
+    background: url("images/logo-footer.png") 12px 50% no-repeat;
 }
-.links a{
+
+.links a {
     border-radius: 50%;
-    background-color:#666666;
-    color:#fff;
-    width:25px;
+    background-color: #666666;
+    color: #fff;
+    width: 25px;
     height: 25px;
     align-items: center;
     justify-content: center;
     display: flex;
     text-decoration: none;
 }
-.links{
+
+.links {
     display: flex;
     flex-direction: row;
+}
 
-}
-.contact{
+.contact {
     background-color: #0E8FAB;
-    margin-top:
     color: #f8f8f8;
+    padding: 25px 30px !important;
 }
-.map{
-    width: 95%;
+
+.map {
+    width: 100%;
     border: solid 1px gray;
-    margin:  32px;
-    height: 325px;
 }
-.mapbox{
-    height: 400px;
+form {
+    margin: 15px 0px;
 }
-form{
-    margin: auto;
-    width: fit-content;
-    padding: 30px 30px 30px 30px;
-}
-label{
+label,textarea {
     display: block;
 }
-.lineitem {
-    margin-bottom: 1em;
+
+input {
+    width: 100%;
 }
+.button{
+    width: 10%;
+    margin: 10px 0px;
+    background-color:black;
+    color:white;
+}
+.location{
+    padding: 0px;
+}
+.sepa{
+    background: url("images/separators.png")
+}
+
+.location ul {
+    list-style-type: none;
+    padding: 0!important;
+}
+.mapbox span{
+    background-color: #f8f8f8;
+    padding-right: 10px;
+}
+
+
