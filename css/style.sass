@@ -1,0 +1,61 @@
+$saliqueWhite: #f8f8f8
+$saliqueAzure: #0E8FAB
+
+%padding30
+  padding: 0px 30px !important
+
+.carousel
+  background-color: $saliqueAzure
+  height: 400px
+  item p, item h3
+    color: white
+
+body
+  background: url("../images/background.png") repeat fixed !important
+
+.container
+  @extend %padding30
+  md
+    background-color: $saliqueWhite
+    padding: 0 !important
+
+header
+  a
+    color: #111111
+  .nav-link
+    color: #111111
+    padding: 30px 0 !important
+  li:hover
+    color: white
+    background-color: #555555
+
+.navbar
+    padding: 0 !important
+
+.current
+  background-color: #555555
+  font-size: 17px
+  color: white
+  i, a
+    color: $saliqueWhite
+
+.content
+  @extend %padding30
+
+.blackrow
+  background: #2c2c2c
+  color: #999999
+  @extend %padding30
+
+.large-icon
+  font-size: 45px
+  color: $saliqueWhite
+  float: left
+  margin-right: 15px
+
+.box-first
+  border-right: 1px solid #111111
+.box-last
+  border-left: 1px solid #555555
+.box-middle
+  @extend .box-first, .box-last
