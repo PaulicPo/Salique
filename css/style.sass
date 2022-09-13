@@ -1,5 +1,8 @@
-$saliqueWhite: #f8f8f8
-$saliqueAzure: #0E8FAB
+@import template
+@import "contact"
+
+p, section
+  margin: 0 !important
 
 %padding30
   padding: 0px 30px !important
@@ -53,9 +56,92 @@ header
   float: left
   margin-right: 15px
 
-.box-first
-  border-right: 1px solid #111111
-.box-last
-  border-left: 1px solid #555555
-.box-middle
-  @extend .box-first, .box-last
+.box
+  &-first
+    border-right: 1px solid #111111
+  &-last
+    border-left: 1px solid #555555
+  &-middle
+    @extend .box-first, .box-last
+
+.white-box
+  background-color: #fff
+  border: solid 1px #e9e9e9
+  h3
+    background-color: #0E8FAB
+    color: #fff
+    text-align: center
+  h5
+    text-align: center
+  div
+    padding: 15px
+
+.actionbox
+  border: solid 1px #e9e9e9
+  background-color: #fff
+  padding: 15px 0px 15px 0px
+  border-left: 4px solid $saliqueAzure
+  margin-top: 55px
+  margin-bottom: 55px
+
+.link
+  background-color: $saliqueAzure
+  padding: 10px 10px
+  color: #fff
+  &-wrapper
+    text-align: right
+    margin-bottom: -15px !important
+    margin-right: -15px !important
+
+.dobat
+  background-color: #0E8FAB !important
+  margin-top: -120px
+  margin-right: -1000px
+
+.downbat
+    float: right
+
+.actionbox
+  p
+    text-align: left !important
+    margin-right: 300px !important
+  div
+    padding: 15px
+
+footer
+    background: #2c2c2c
+    color: #fff
+    padding: 0px 30px !important
+
+.subfoot
+  div
+    h6
+      border-bottom: 2px solid #0E8FAB
+    p
+      color: #999
+  .fa-link
+    padding: 0px 10px 10px 0px !important
+
+.copyright
+  background-color: #111111
+  color: #666666
+  margin: 0 !important
+  padding: 0px 30px !important
+
+.footerlogo
+  background: url("../images/logo-footer.png") 12px 50% no-repeat
+
+.links
+  display: flex
+  flex-direction: row
+  a
+    border-radius: 50%
+    background-color: #666666
+    color: #fff
+    width: 25px
+    height: 25px
+    align-items: center
+    justify-content: center
+    display: flex
+    text-decoration: none
+
